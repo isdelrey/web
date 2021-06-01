@@ -42,6 +42,11 @@ module.exports = {
       bg: "var(--color-bg)",
       gray: "var(--color-gray)",
       lightgray: "var(--color-lightgray)"
+    },
+    extend: {
+      fontSize: {
+        xxs: '0.7rem'
+      }
     }
   },
   plugins: [],
