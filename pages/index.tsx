@@ -1,9 +1,8 @@
+import SvelteImage from "../assets/svelte.svg"
+import VaguevoidImage from "../assets/vaguevoid.svg"
 import Font from "../components/Font"
 import Project from "../components/Project"
 import Top from "../components/Top"
-import SvelteImage from "../assets/svelte.svg"
-import VaguevoidImage from "../assets/vaguevoid.svg"
-import Tag from "../components/Tag"
 
 const Home = () => {
   return (
