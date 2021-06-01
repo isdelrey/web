@@ -10,12 +10,12 @@ const Home = () => {
         
         <Back />
 
-        <div className="mt-8 text-xl md:ml-52 fill-fg">
-          <h1>Svelte Display</h1>
+        <main className="mt-8 text-xl md:ml-52 fill-fg">
+          <div><h1>Svelte Display</h1>
           <div className="mt-3">
             <SvelteImage width="170px" height="70px" />
-          </div>
-        </div>
+          </div></div>
+        </main>
       </div>
     </div>
   )
