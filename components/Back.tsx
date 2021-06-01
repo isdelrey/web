@@ -1,8 +1,10 @@
 import { ArrowLeft } from "react-feather";
+import {useRouter} from "next/router"
 
 const Project = () => {
+  const router = useRouter()
   return (
-    <a onClick={() => history.back()} className="md:fixed block mt-9 gap-3 cursor-pointer text-gray hover:text-fg">
+    <a onClick={() => router.back()} className="md:fixed block mt-9 gap-3 cursor-pointer text-gray hover:text-fg">
         <ArrowLeft size="1.2rem" />
         <div className="mt-1">Back</div>
     </a>
