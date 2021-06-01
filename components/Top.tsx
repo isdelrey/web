@@ -5,7 +5,7 @@ const Top = () => {
   return (
     <header className="flex text-sm justify-between flex-wrap">
       <div className="flex items-center flex-wrap">
-        <div className="mb-4 sm:mb-0 w-full sm:w-auto"><img width="40px" height="40px" src="/foto.png" className="mr-4 rounded-3xl" /></div>
+        <div className="mb-4 sm:mb-0 w-full sm:w-auto"><img width="40px" height="40px" src="/foto.png" className="mr-4 rounded-3xl" style={{minWidth: 40, minHeight: 40}} /></div>
         <div className="flex flex-wrap">
           <div className="w-full md:w-auto">Ivo Sequeros del Rey</div>
           <div className="md:ml-4 text-gray">Engineering, Design &#x26; Innovation</div>
