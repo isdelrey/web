@@ -1,3 +1,4 @@
+import Link from "next/link"
 import SvelteImage from "../assets/svelte.svg"
 import VaguevoidImage from "../assets/vaguevoid.svg"
 import Font from "../components/Font"
@@ -36,15 +37,26 @@ const Home = () => {
             </small>
             </h2>
             <div className="flex mt-6 gap-8">
-             <Font
+              <Link href="/fontfaces/vaguevoid"><a><Font
                 title="Vaguevoid"
                 image={VaguevoidImage}
-              />
-              <Font
+              /></a></Link>
+              <Link href="/fontfaces/svelte"><a><Font
                 title="Svelte"
                 image={SvelteImage}
-              />
+              /></a></Link>
             </div>
+          </section>
+
+          <section className="mt-10 md:mt-10">
+            <h2 className="">My Graveyard<span className="text-sm align-top ml-0.5">✝</span></h2>
+            <div className="flex mt-5">
+                <Project
+                  title="Shifti"
+                  description="An AI-driven shift management tool for big corporations"
+                  tag="Beta"
+                />
+              </div>
           </section>
         </main>
       </div>

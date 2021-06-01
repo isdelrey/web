@@ -1,4 +1,5 @@
 import { GitHub, Linkedin } from "react-feather"
+import Tag from "./Tag"
 
 const Top = () => {
   return (
@@ -14,6 +15,7 @@ const Top = () => {
         <a href="http://linkedin.com/in/ivo-s-393598131" target="_blank" className="hover:text-fg"><Linkedin size="16px" /></a>
         <a href="https://github.com/isdelrey" target="_blank" className="hover:text-fg"><GitHub size="16px" className="mt-0.5" /></a>
         <a href="mailto:ivosequeros@me.com" className="hover:text-fg">Contact</a>
+        <Tag>v1</Tag>
       </div>
     </header>
   )

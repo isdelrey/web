@@ -1,6 +1,6 @@
 import Tag from "./Tag"
 
-const Project = ({title, description, tag}) => {
+const Back = ({title, description, tag}) => {
   return (
     <div className="text-base w-[20rem] hover:text-gray">
       <div className="font-bold mb-1">{title} <Tag>{tag}</Tag></div>
@@ -9,4 +9,4 @@ const Project = ({title, description, tag}) => {
   )
 }
 
-export default Project
+export default Back
