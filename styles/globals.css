@@ -42,7 +42,7 @@ textarea {
 .dark {
   --color-bg: rgb(30, 30, 30);
   --color-fg: #fff;
-  --color-gray: rgb(117, 117, 117);
+  --color-gray: rgb(135, 135, 135);
   --color-lightgray: rgb(80, 80, 80);
 }
 
