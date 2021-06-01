@@ -36,12 +36,14 @@ textarea {
   --color-bg: #fff;
   --color-fg: #000;
   --color-gray: #949494;
+  --color-lightgray: #e0e0e0;
 }
 
 .dark {
   --color-bg: rgb(30, 30, 30);
   --color-fg: #fff;
   --color-gray: rgb(117, 117, 117);
+  --color-lightgray: rgb(80, 80, 80);
 }
 
 @import "tailwindcss/base";
