@@ -46,13 +46,13 @@ const Home = () => {
                 Currently being repackaged
             </small>
             <div className="flex mt-6 gap-12">
-              <Link href="/fontfaces/vaguevoid"><a><Font
+              <Link href="/"><a className="cursor-not-allowed"><Font
                 title="Vaguevoid"
                 image={VaguevoidImage}
                 tag="Beta"
                 description="An oval sans-serif display font."
               /></a></Link>
-              <Link href="/fontfaces/svelt"><a><Font
+              <Link href="/"><a className="cursor-not-allowed"><Font
                 title="Svelt"
                 image={SveltImage}
                 tag="Beta"
@@ -64,7 +64,7 @@ const Home = () => {
           <section className="mt-20">
             <h2 className="">My Graveyard</h2>
             <div className="flex mt-5 gap-10">
-            <Link href="/graveyard/shifti"><a className="flex"><Project
+            <Link href="/"><a className="flex cursor-not-allowed"><Project
                   title="Shifti"
                   description="An AI-driven shift management tool for big corporations"
                   tag="RIP"
