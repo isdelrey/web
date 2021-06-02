@@ -1,8 +1,8 @@
-import VaguevoidImage from "../../assets/vaguevoid.svg"
+import SvelteImage from "../../assets/svelte.svg"
 import Back from "../../components/Back"
 import Top from "../../components/Top"
 
-const Vaguevoid = () => {
+const Shifti = () => {
   return (
     <div className="my-8 mx-9 flex justify-center">
       <div className="w-full flex-shrink">
@@ -10,19 +10,19 @@ const Vaguevoid = () => {
         
         <Back />
 
-        <div className="mt-8 md:mt-12 text-xl md:ml-60 fill-fg">
-          <h1>Vaguevoid Display</h1>
-          <div className="mt-3">
-            <VaguevoidImage width="170px" height="70px" />
+        <main className="mt-8 md:mt-12 text-xl md:ml-60 fill-fg">
+          <div>
+              <h1 className="text-5xl font-light">Shifti</h1>
           </div>
 
+
           <section className="text-base mt-10">
-            Vaguevoid is a 
+            Shifti was a business application developed between 2018 and 2019 to 
           </section>
-        </div>
+        </main>
       </div>
     </div>
   )
 }
 
-export default Vaguevoid
+export default Shifti
