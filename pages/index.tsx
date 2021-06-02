@@ -1,5 +1,5 @@
 import Link from "next/link"
-import SveltImage from "../assets/Svelt.svg"
+import SveltImage from "../assets/svelt.svg"
 import VaguevoidImage from "../assets/vaguevoid.svg"
 import GraphosImage from "../assets/graphos.svg"
 import Font from "../components/Font"
