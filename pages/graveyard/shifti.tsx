@@ -1,4 +1,3 @@
-import SvelteImage from "../../assets/svelte.svg"
 import Back from "../../components/Back"
 import Top from "../../components/Top"
 
