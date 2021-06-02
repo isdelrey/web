@@ -21,7 +21,7 @@ const Top = () => {
         <a href="http://linkedin.com/in/ivo-s-393598131" target="_blank" className="hover:text-fg"><Linkedin size="16px" /></a>
         <a href="https://github.com/isdelrey" target="_blank" className="hover:text-fg"><GitHub size="16px" className="mt-0.5" /></a>
         <a href="mailto:ivosequeros@me.com" className="hover:text-fg">Contact</a>
-        <div><Tag>v1</Tag></div>
+        <div><Tag>This website is a WIP</Tag></div>
       </div>
     </header>
   )

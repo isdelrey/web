@@ -11,10 +11,10 @@ const Vaguevoid = () => {
         <Back />
 
         <div className="mt-8 md:mt-12 text-xl md:ml-60 fill-fg">
-          <h1>Vaguevoid Display</h1>
-          <div className="mt-3">
-            <VaguevoidImage width="170px" height="70px" />
-          </div>
+          <h2>Vaguevoid Display</h2>
+          <h1 className="mt-3">
+            <VaguevoidImage width="170px" height="70px" alt="Vaguevoid" />
+          </h1>
 
           <section className="text-base mt-10">
             Vaguevoid is a 

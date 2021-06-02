@@ -1,3 +1,7 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 html,
 body {
   padding: 0;
@@ -33,7 +37,7 @@ textarea {
 .light {
   --color-bg: #fff;
   --color-fg: #000;
-  --color-gray: #949494;
+  --color-gray: #777;
   --color-lightgray: #e0e0e0;
 }
 
@@ -44,6 +48,7 @@ textarea {
   --color-lightgray: rgb(80, 80, 80);
 }
 
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+
+h2 {
+  @apply font-bold;
+}
