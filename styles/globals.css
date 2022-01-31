@@ -20,7 +20,6 @@ a {
   text-decoration: none;
 }
 
-
 input,
 select,
 textarea {
@@ -37,17 +36,20 @@ textarea {
 .light {
   --color-bg: #fff;
   --color-fg: #000;
-  --color-gray: #777;
-  --color-lightgray: #e0e0e0;
+
+  --color-gray-1: #777;
+  --color-gray-2: #9c9c9c;
+  --color-gray-3: #eeeeee;
 }
 
 .dark {
   --color-bg: rgb(30, 30, 30);
   --color-fg: #fff;
-  --color-gray: rgb(135, 135, 135);
-  --color-lightgray: rgb(80, 80, 80);
-}
 
+  --color-gray-1: #878787;
+  --color-gray-2: #505050;
+  --color-gray-3: #333;
+}
 
 h2 {
   @apply font-bold;

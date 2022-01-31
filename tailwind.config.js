@@ -1,53 +1,38 @@
 module.exports = {
-  purge: ["./public/**/*.html", "./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}"],
-  mode: 'jit',
+  purge: [
+    "./public/**/*.html",
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+  ],
+  mode: "jit",
   darkMode: "media",
   theme: {
     fontFamily: {
-      body: ["Inter"]
+      body: ["Inter"],
     },
-    stroke: {
+    colors: {
       fg: "var(--color-fg)",
       bg: "var(--color-bg)",
-      gray: "var(--color-gray)",
-      lightgray: "var(--color-lightgray)"
-    },
-    placeholderColor: {
-      fg: "var(--color-fg)",
-      bg: "var(--color-bg)",
-      gray: "var(--color-gray)",
-      lightgray: "var(--color-lightgray)"
+      "gray-1": "var(--color-gray-1)",
+      "gray-2": "var(--color-gray-2)",
+      "gray-3": "var(--color-gray-3)",
+      "gray-4": "var(--color-gray-4)",
+      "gray-5": "var(--color-gray-5)",
     },
     fill: {
       fg: "var(--color-fg)",
       bg: "var(--color-bg)",
-      gray: "var(--color-gray)",
-      lightgray: "var(--color-lightgray)"
-    },
-    borderColor: {
-      transparent: "transparent",
-      fg: "var(--color-fg)",
-      gray: "var(--color-gray)",
-      lightgray: "var(--color-lightgray)",
-    },
-    backgroundColor: {
-      transparent: "transparent",
-      fg: "var(--color-fg)",
-      bg: "var(--color-bg)",
-      gray: "var(--color-gray)",
-      lightgray: "var(--color-lightgray)"
-    },
-    textColor: {
-      fg: "var(--color-fg)",
-      bg: "var(--color-bg)",
-      gray: "var(--color-gray)",
-      lightgray: "var(--color-lightgray)"
+      "gray-1": "var(--color-gray-1)",
+      "gray-2": "var(--color-gray-2)",
+      "gray-3": "var(--color-gray-3)",
+      "gray-4": "var(--color-gray-4)",
+      "gray-5": "var(--color-gray-5)",
     },
     extend: {
       fontSize: {
-        xxs: '0.7rem'
-      }
-    }
+        xxs: "0.7rem",
+      },
+    },
   },
   plugins: [],
 };
