@@ -11,6 +11,9 @@ import Sample9 from "../../assets/vaguevoid/9.svg";
 import Sample10 from "../../assets/vaguevoid/10.svg";
 import Sample11 from "../../assets/vaguevoid/11.svg";
 import Sample12 from "../../assets/vaguevoid/12.svg";
+import Sample13 from "../../assets/vaguevoid/13.svg";
+import Sample14 from "../../assets/vaguevoid/14.svg";
+import Sample15 from "../../assets/vaguevoid/15.svg";
 
 import VaguevoidImage from "../../assets/vaguevoid.svg";
 import Back from "../../components/Back";
@@ -145,6 +148,22 @@ const Vaguevoid = () => {
                 </div>
               </div>
             </div>
+          </section>
+
+          <section className="border-t border-gray-3 mt-20 pt-10 w-full pb-16">
+            <h2>Samples</h2>
+            <div className="uppercase tracking-widest text-xs mb-5 text-gray-1 mt-8">
+              German
+            </div>
+            <Sample13 alt="Sample 13" className="w-[80%]" />
+            <div className="uppercase tracking-widest text-xs mb-5 text-gray-1 mt-8">
+              French
+            </div>
+            <Sample14 alt="Sample 14" className="w-[80%]" />
+            <div className="uppercase tracking-widest text-xs mb-5 text-gray-1 mt-8">
+              Catalan
+            </div>
+            <Sample15 alt="Sample 15" className="w-[80%]" />
           </section>
         </div>
       </div>
