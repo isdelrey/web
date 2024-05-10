@@ -50,11 +50,13 @@ const Home = () => {
                 Open Projects<span className="text-sm align-top ml-0.5">†</span>
               </h2>
               <div className="flex mt-5">
-                <Project
+               <Link href="https://playscript.delrey.dev">
+               <Project
                   title="Playscript Studio"
                   description="A minimal movie quotes search engine, open to everyone."
                   tag="v1"
                 />
+                </Link>
               </div>
             </section>
 
